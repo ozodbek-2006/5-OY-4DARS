@@ -1,0 +1,333 @@
+@import url('../css/fonts.css');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    transition: .3s;
+}
+
+a {
+    text-decoration: none;
+}
+
+ul {
+    list-style: none;
+}
+
+button {
+    border: none;
+    outline: none;
+    background-color: unset;
+    cursor: pointer;
+}
+
+input {
+    border: none;
+    outline: none;
+}
+
+.container {
+    max-width: 1171px;
+    width: 100%;
+    margin: 0 auto;
+    padding: 0 15px;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    background-color: #EDEDED;
+    color: #171010;
+    transition: background-color 0.2s, color 0.1s;
+
+    &[data-theme="dark"] {
+        background-color: #2B2B2B;
+        color: #fff;
+    }
+}
+
+header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px;
+    border-bottom: 2px solid #eaeaea;
+
+    .logo {
+        width: 50px;
+        height: 50px;
+        background-color: grey;
+    }
+
+    nav a {
+        margin: 0 15px;
+        text-decoration: none;
+        color: inherit;
+    }
+
+    button {
+        padding: 10px 20px;
+        font-size: 16px;
+        cursor: pointer;
+        border: none;
+        background-color: #333;
+        color: white;
+        border-radius: 5px;
+
+        &:hover {
+            background-color: #555;
+        }
+    }
+}
+
+nav {
+    padding: 40px 20px;
+
+    .hero {
+        text-align: center;
+        padding: 20px;
+        border-radius: 10px;
+
+        .fast_title {
+            font-size: 2.5rem;
+            margin-bottom: 20px;
+        }
+
+        .lorem {
+            font-size: 1rem;
+            line-height: 1.5;
+            text-align: center;
+        }
+    }
+
+
+}
+
+.main {
+    margin-top: 331px;
+
+    .main_box {
+        display: flex;
+        flex-direction: row;
+        gap: 68px;
+        align-items: center;
+
+        .div1 {
+            .title {
+                font-size: 53px;
+                font-weight: 700;
+                line-height: 63.6px;
+                margin-bottom: 60px;
+            }
+
+            .lorems_div {
+                display: flex;
+                flex-direction: row;
+                gap: 54px;
+
+                .div3 {
+                    .text_lorem {
+                        font-size: 16px;
+                        font-weight: 400;
+                        line-height: 24px;
+                    }
+
+                    .readMore_title {
+                        margin-top: 20px;
+                        font-size: 18px;
+                        font-weight: 700;
+                        line-height: 28px;
+                        cursor: pointer;
+                    }
+                }
+
+                .div4 {
+                    .text_lorem {
+                        font-size: 16px;
+                        font-weight: 400;
+                        line-height: 24px;
+                    }
+
+                    .readMore_title {
+                        margin-top: 20px;
+                        font-size: 18px;
+                        font-weight: 700;
+                        line-height: 28px;
+                        cursor: pointer;
+                    }
+                }
+            }
+        }
+
+        .div2 {
+            width: 534px;
+            height: 534px;
+            border-radius: 5px;
+            background-color: #F5F5FF;
+            padding-top: 300px;
+            padding-left: 250px;
+        }
+    }
+
+    .main_box2 {
+        margin-top: 153px;
+        display: flex;
+        flex-direction: row;
+        gap: 225px;
+
+        .div1 {
+            .title {
+                font-size: 39px;
+                font-weight: 700;
+                line-height: 46.8px;
+                padding-bottom: 20px;
+            }
+
+            .text {
+                font-size: 18px;
+                font-weight: 400;
+                line-height: 28px;
+
+            }
+        }
+
+        .div2 {
+            display: flex;
+            flex-direction: row;
+            gap: 70px;
+
+            .div3 {
+                display: flex;
+                flex-direction: column;
+                gap: 16px;
+
+                .title {
+                    font-size: 31px;
+                    font-weight: 700;
+                    line-height: 42.28px;
+                }
+            }
+
+            .div4 {
+                display: flex;
+                flex-direction: column;
+                gap: 16px;
+
+                .title {
+                    font-size: 31px;
+                    font-weight: 700;
+                    line-height: 42.28px;
+                }
+            }
+        }
+    }
+
+    .main_box3 {
+        margin-top: 145px;
+        display: flex;
+        flex-direction: row;
+        align-items: center;
+        gap: 60px;
+
+        .texts {
+            .title {
+                font-size: 25px;
+                font-weight: 700;
+                line-height: 34.1px;
+                margin-bottom: 20px;
+
+            }
+
+            .lorem_text {
+                font-size: 16px;
+                font-weight: 400;
+                line-height: 24px;
+            }
+        }
+
+        .img {
+            width: 240.41px;
+            height: 214px;
+            border-radius: 5px;
+            background-color: #F5F5FF;
+            padding: 100px 90px;
+        }
+    }
+
+    .main_box4 {
+        margin-top: 81px;
+        margin-bottom: 97px;
+
+        .title {
+            font-size: 53px;
+            font-weight: 700;
+            line-height: 63.6px;
+            text-align: center;
+            margin-bottom: 81px;
+        }
+
+        .div_box {
+            display: flex;
+            flex-direction: row;
+            gap: 95px;
+
+            .div1 {
+                width: 434px;
+                height: 300px;
+                padding: 60px;
+                border-radius: 5px;
+                box-shadow: 0px 0px 40px 0px #3928A626;
+
+                .text {
+                    font-size: 18px;
+                    font-weight: 400;
+                    line-height: 28px;
+                    padding-bottom: 20px;
+                }
+            }
+
+            .div2 {
+                width: 434px;
+                height: 300px;
+                padding: 60px;
+                border-radius: 5px;
+                box-shadow: 0px 0px 40px 0px #3928A626;
+
+                .text {
+                    font-size: 18px;
+                    font-weight: 400;
+                    line-height: 28px;
+                    padding-bottom: 20px;
+                }
+            }
+        }
+    }
+
+    .main_box5 {
+        display: flex;
+        justify-content: space-between;
+        margin-bottom: 43px;
+        .div {
+            .text {
+                font-size: 14px;
+                font-weight: 700;
+                line-height: 21px;
+                padding-bottom: 20px;
+            }
+
+            .tarmoq_icon {
+                padding-bottom: 23px;
+                display: flex;
+                flex-direction: row;
+                align-items: center;
+                gap: 20px;
+            }
+
+            .text2 {
+                font-size: 14px;
+                font-weight: 600;
+                line-height: 21px;
+            }
+        }
+    }
+}

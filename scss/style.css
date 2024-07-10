@@ -1,0 +1,278 @@
+@import url("../css/fonts.css");
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  transition: 0.3s;
+}
+
+a {
+  text-decoration: none;
+}
+
+ul {
+  list-style: none;
+}
+
+button {
+  border: none;
+  outline: none;
+  background-color: unset;
+  cursor: pointer;
+}
+
+input {
+  border: none;
+  outline: none;
+}
+
+.container {
+  max-width: 1171px;
+  width: 100%;
+  margin: 0 auto;
+  padding: 0 15px;
+}
+
+body {
+  font-family: Arial, sans-serif;
+  background-color: #EDEDED;
+  color: #171010;
+  transition: background-color 0.2s, color 0.1s;
+}
+body[data-theme=dark] {
+  background-color: #2B2B2B;
+  color: #fff;
+}
+
+header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 20px;
+  border-bottom: 2px solid #eaeaea;
+}
+header .logo {
+  width: 50px;
+  height: 50px;
+  background-color: grey;
+}
+header nav a {
+  margin: 0 15px;
+  text-decoration: none;
+  color: inherit;
+}
+header button {
+  padding: 10px 20px;
+  font-size: 16px;
+  cursor: pointer;
+  border: none;
+  background-color: #333;
+  color: white;
+  border-radius: 5px;
+}
+header button:hover {
+  background-color: #555;
+}
+
+nav {
+  padding: 40px 20px;
+}
+nav .hero {
+  text-align: center;
+  padding: 20px;
+  border-radius: 10px;
+}
+nav .hero .fast_title {
+  font-size: 2.5rem;
+  margin-bottom: 20px;
+}
+nav .hero .lorem {
+  font-size: 1rem;
+  line-height: 1.5;
+  text-align: center;
+}
+
+.main {
+  margin-top: 331px;
+}
+.main .main_box {
+  display: flex;
+  flex-direction: row;
+  gap: 68px;
+  align-items: center;
+}
+.main .main_box .div1 .title {
+  font-size: 53px;
+  font-weight: 700;
+  line-height: 63.6px;
+  margin-bottom: 60px;
+}
+.main .main_box .div1 .lorems_div {
+  display: flex;
+  flex-direction: row;
+  gap: 54px;
+}
+.main .main_box .div1 .lorems_div .div3 .text_lorem {
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 24px;
+}
+.main .main_box .div1 .lorems_div .div3 .readMore_title {
+  margin-top: 20px;
+  font-size: 18px;
+  font-weight: 700;
+  line-height: 28px;
+  cursor: pointer;
+}
+.main .main_box .div1 .lorems_div .div4 .text_lorem {
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 24px;
+}
+.main .main_box .div1 .lorems_div .div4 .readMore_title {
+  margin-top: 20px;
+  font-size: 18px;
+  font-weight: 700;
+  line-height: 28px;
+  cursor: pointer;
+}
+.main .main_box .div2 {
+  width: 534px;
+  height: 534px;
+  border-radius: 5px;
+  background-color: #F5F5FF;
+  padding-top: 300px;
+  padding-left: 250px;
+}
+.main .main_box2 {
+  margin-top: 153px;
+  display: flex;
+  flex-direction: row;
+  gap: 225px;
+}
+.main .main_box2 .div1 .title {
+  font-size: 39px;
+  font-weight: 700;
+  line-height: 46.8px;
+  padding-bottom: 20px;
+}
+.main .main_box2 .div1 .text {
+  font-size: 18px;
+  font-weight: 400;
+  line-height: 28px;
+}
+.main .main_box2 .div2 {
+  display: flex;
+  flex-direction: row;
+  gap: 70px;
+}
+.main .main_box2 .div2 .div3 {
+  display: flex;
+  flex-direction: column;
+  gap: 16px;
+}
+.main .main_box2 .div2 .div3 .title {
+  font-size: 31px;
+  font-weight: 700;
+  line-height: 42.28px;
+}
+.main .main_box2 .div2 .div4 {
+  display: flex;
+  flex-direction: column;
+  gap: 16px;
+}
+.main .main_box2 .div2 .div4 .title {
+  font-size: 31px;
+  font-weight: 700;
+  line-height: 42.28px;
+}
+.main .main_box3 {
+  margin-top: 145px;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  gap: 60px;
+}
+.main .main_box3 .texts .title {
+  font-size: 25px;
+  font-weight: 700;
+  line-height: 34.1px;
+  margin-bottom: 20px;
+}
+.main .main_box3 .texts .lorem_text {
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 24px;
+}
+.main .main_box3 .img {
+  width: 240.41px;
+  height: 214px;
+  border-radius: 5px;
+  background-color: #F5F5FF;
+  padding: 100px 90px;
+}
+.main .main_box4 {
+  margin-top: 81px;
+  margin-bottom: 97px;
+}
+.main .main_box4 .title {
+  font-size: 53px;
+  font-weight: 700;
+  line-height: 63.6px;
+  text-align: center;
+  margin-bottom: 81px;
+}
+.main .main_box4 .div_box {
+  display: flex;
+  flex-direction: row;
+  gap: 95px;
+}
+.main .main_box4 .div_box .div1 {
+  width: 434px;
+  height: 300px;
+  padding: 60px;
+  border-radius: 5px;
+  box-shadow: 0px 0px 40px 0px rgba(57, 40, 166, 0.1490196078);
+}
+.main .main_box4 .div_box .div1 .text {
+  font-size: 18px;
+  font-weight: 400;
+  line-height: 28px;
+  padding-bottom: 20px;
+}
+.main .main_box4 .div_box .div2 {
+  width: 434px;
+  height: 300px;
+  padding: 60px;
+  border-radius: 5px;
+  box-shadow: 0px 0px 40px 0px rgba(57, 40, 166, 0.1490196078);
+}
+.main .main_box4 .div_box .div2 .text {
+  font-size: 18px;
+  font-weight: 400;
+  line-height: 28px;
+  padding-bottom: 20px;
+}
+.main .main_box5 {
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 43px;
+}
+.main .main_box5 .div .text {
+  font-size: 14px;
+  font-weight: 700;
+  line-height: 21px;
+  padding-bottom: 20px;
+}
+.main .main_box5 .div .tarmoq_icon {
+  padding-bottom: 23px;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  gap: 20px;
+}
+.main .main_box5 .div .text2 {
+  font-size: 14px;
+  font-weight: 600;
+  line-height: 21px;
+}/*# sourceMappingURL=style.css.map */
